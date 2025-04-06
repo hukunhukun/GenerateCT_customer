@@ -1,0 +1,28 @@
+# 忽略大文件和数据
+weights/
+transformer_inference/
+transformer_train/
+pretrained_models/
+*.h5
+*.pt
+*.pth
+*.bin
+*.gz
+# 忽略 Python 临时文件
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+
+# 忽略虚拟环境
+venv/
+env/
+
+# 忽略 IDE 配置
+.idea/
+.vscode/
+.DS_Store
+
+# 忽略日志和临时文件
+*.log
+*.tmp

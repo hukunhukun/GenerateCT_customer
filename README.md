@@ -61,5 +61,7 @@ python inference_transformer.py
 
 - [t5-v1_1-base](https://huggingface.co/google/t5-v1_1-base)
 
+- [mymodel/maskgittransformer.85999.pt](https://huggingface.co/kunkunhu/GenerateCT-customer)
 
+- [mymodel/vae.9750.pt](https://huggingface.co/kunkunhu/GenerateCT-customer)
 

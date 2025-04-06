@@ -32,7 +32,7 @@ def train():
 
     # Load the pre-trained weights
 
-    pretrained_ctvit_path = 'ctvit/vae.9750.pt'
+    pretrained_ctvit_path = 'mymodel/vae.9750.pt'
     ctvit.load(pretrained_ctvit_path)
 
     maskgit = MaskGit(

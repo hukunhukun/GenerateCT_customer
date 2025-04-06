@@ -12,8 +12,8 @@ cvivit = CTViT(
     dim_head = 32,
     heads = 8,
 )
-pretrained_ctvit_path = 'pretrained_models/vae.19750.pt'
-cvivit.load(pretrained_ctvit_path)
+# pretrained_ctvit_path = 'pretrained_models/vae.19750.pt'
+# cvivit.load(pretrained_ctvit_path)
 
 trainer = CTViTTrainer(
     cvivit,

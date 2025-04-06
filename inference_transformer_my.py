@@ -53,7 +53,7 @@ def infer():
 
     # Load the pre-trained weights
 
-    pretrained_ctvit_path = 'pretrained_models/ctvit_pretrained.pt'
+    pretrained_ctvit_path = 'mymodel/ctvit_pretrained.pt'
     ctvit.load(pretrained_ctvit_path)
 
     maskgit = MaskGit(
@@ -69,7 +69,7 @@ def infer():
         maskgit=maskgit
     ).cuda()
     batch_size=1
-    transformer_model.load('transformer_train/maskgittransformer.85999.pt')
+    transformer_model.load('mymodel/maskgittransformer.85999.pt')
     transformer_model.eval()
 
     csv_file = 'mydata/valid_data/Pelvic_test.csv'
